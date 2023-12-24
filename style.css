@@ -1,33 +1,10 @@
 body {
-    background-color: #0047AB;
-    overflow: hidden;
+  background-color: #0047AB;
 }
 
-#logo-slider {
-    width: 100%;
-    overflow: hidden; /* Hide the part of logos that go beyond the container */
-}
-
-#logo-container {
-    display: flex;
-    white-space: nowrap;
-    animation: slide linear infinite;
-    animation-duration: 6s; /* Adjust this for speed */
-}
-
-@keyframes slide {
-    from {
-        transform: translateX(100%);
-    }
-    to {
-        transform: translateX(-100%);
-    }
-}
-
-.logo img {
-    border-radius: 50%;
-    border: 2px solid #38FFAF;
-    width: 50px; /* Adjust this for logo size */
-    height: 50px; /* Adjust this for logo size */
-    object-fit: cover; /* Ensures images don't get distorted */
+#logo-showcase img {
+  width: 50px; /* Or other sizes */
+  border: 2px solid #38FFAF;
+  border-radius: 50%; /* Makes the image circular */
+  cursor: pointer;
 }
