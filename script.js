@@ -1,7 +1,7 @@
-function setSpeed(speedInSeconds) {
-    const logoContainer = document.getElementById('logo-container');
-    logoContainer.style.animationDuration = speedInSeconds + 's';
-}
-
-// Example: Set speed to 5 seconds
-setSpeed(5);
+$('#logo-showcase').slick({
+  infinite: true,
+  slidesToShow: 3,  // Adjust based on your layout
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+});
