@@ -7,3 +7,11 @@ body {
     width: 100%;
     overflow: hidden; /* Hide the part of logos that go beyond the container */
 }
+
+.logo img {
+    border-radius: 50%;
+    border: 2px solid #38FFAF;
+    width: 100px; /* Adjust this for logo size */
+    height: 100px; /* Adjust this for logo size */
+    object-fit: cover; /* Ensures images don't get distorted */
+}
