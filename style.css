@@ -4,3 +4,16 @@
     width: 100%;
     overflow: hidden; /* Hide the part of logos that go beyond the container */
 }
+@media (max-width: 768px) {
+  .widget {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 769px) {
+  .widget {
+    width: 400px;
+    height: 200px;
+  }
+}
